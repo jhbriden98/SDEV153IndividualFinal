@@ -1,0 +1,54 @@
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <%= image_tag("hat1.png", :alt => "hat1", class:"d-block w-100") %>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag("hat2.png", :alt => "hat2", class:"d-block w-100") %>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag("hat3.jpg", :alt => "hat3", class:"d-block w-100") %>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="jumbotron jumbotron-fluid bg-secondary">
+  <div class="container">
+    <h1 class="display-6">Project Spotlights</h1>
+    <p class="lead">Below are spotlights on a few projects from creators I've fallen in love with. Please take some time to check out each of them!</p>
+  </div>
+</div>
+<div class="jumbotron jumbotron-fluid bg-secondary">
+  <div class="container">
+    <%= image_tag("nostos.jpg", :alt => "nostos", class:"d-block w-100") %>
+    <h1 class="display-2">NOSTOS</h1>
+    <p class="lead">Placeholder text about NOSTOS development, links.</p>
+  </div>
+  <br>
+  <div class="container">
+    <h1 class="display-4">Lineage OS</h1>
+    <p class="lead">Placeholder text about Lineage OS development, links.</p>
+  </div>
+  <br>
+  <div class="container">
+    <h1 class="display-4">Placeholder</h1>
+    <p class="lead">Placeholder text about Placeholder development, links.</p>
+  </div>
+  <br>
+  <div class="container">
+    <h1 class="display-4">Placeholder</h1>
+    <p class="lead">Placeholder text about Placeholder development, links.</p>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<%= form_with(model: sdev153, local: true) do |form| %>
+  <% if sdev153.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(sdev153.errors.count, "error") %> prohibited this sdev153 from being saved:</h2>
+
+      <ul>
+      <% sdev153.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

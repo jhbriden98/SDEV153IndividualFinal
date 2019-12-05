@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Sdev120s</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sdev120s.each do |sdev120| %>
+      <tr>
+        <td><%= link_to 'Show', sdev120 %></td>
+        <td><%= link_to 'Edit', edit_sdev120_path(sdev120) %></td>
+        <td><%= link_to 'Destroy', sdev120, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Sdev120', new_sdev120_path %>
